@@ -1,0 +1,175 @@
+@font-face{
+	font-family: pixel;
+	src: url('Ac437_ToshibaTxL2_8x16.ttf');
+}
+
+html{
+	width: 100%vw;
+	height: 100%vh; 
+	background: linear-gradient(180deg, #372a52, #231e3d,#53324c,#755356);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body{
+	margin: 0;
+	font-family: pixel;
+}
+
+.file{
+	display: flex;
+	padding-left: 1.5%;
+	margin: 0;
+	font-size: 1vw;
+	color: white;
+	background-color: #010081;
+}
+
+.topnav{
+	padding-left: 1.5%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	display: flex;
+	background-color: #989898;
+	box-shadow: 1px 1px 1px #000;
+}
+
+.topnav a{
+	display: flex;
+	text-decoration: none;
+	color: black;
+	font-size: 2.5vw;
+	padding-left: 1em;
+	padding-right:1em;
+	margin-right: 2.5vw;
+	box-shadow: -2px -2px #e0dede, 
+				-2px 0 #e0dede, 
+				0 -2px #e0dede, 
+				-4px -4px white, 
+				-4px 0 white, 
+				0 -4px white, 
+				2px 2px #818181, 
+				0 2px #818181, 
+				2px 0 #818181, 
+				2px -2px #e0dede, 
+				-2px 2px #818181, 
+				-4px 2px white, 
+				-4px 4px black, 
+				4px 4px black, 
+				4px 0 black, 
+				0 4px black, 
+				2px -4px white, 
+				4px -4px black;
+}
+
+.topnav a:active{
+	box-shadow: -2px -2px #818181, 
+    			-2px 0 #818181, 
+    			0 -2px #818181, 
+    			-4px -4px black, 
+    			-4px 0 black, 
+    			0 -4px black, 
+    			2px 2px #e0dede, 
+    			0 2px #e0dede, 
+    			2px 0 #e0dede,  
+    			2px -2px #818181, 
+    			-2px 2px #e0dede, 
+    			-4px 2px black, 
+    			-4px 4px white, 
+    			4px 4px white, 
+    			4px 0 white, 
+    			0 4px white, 
+    			2px -4px black, 
+    			4px -4px white;
+}
+
+.title{
+	padding-top: 2.8em;
+	padding-bottom: 13em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.title h1{
+	font-size: 4em;
+	color: white;
+	letter-spacing: 0.15em;
+	font-weight: bold;
+}
+
+.title img{
+	width: 30%;
+	height: 30%;
+	filter: opacity(95%) brightness(1.5);
+	border-radius: 10%;
+}
+
+.para{
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+	background-image: url("img/bg.jpeg");  
+
+}
+
+.para1{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.para1 p{
+	font-size: 2.3em;
+	color:white;
+}
+
+.para1 a{
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+	-webkit-text-stroke: 1px black;
+	background-color: #989898;
+	text-decoration: none;
+	color: #f0f073;
+	font-size: 6em;
+	box-shadow: -2px -2px #e0dede, 
+				-2px 0 #e0dede, 
+				0 -2px #e0dede, 
+				-4px -4px white, 
+				-4px 0 white, 
+				0 -4px white, 
+				2px 2px #818181, 
+				0 2px #818181, 
+				2px 0 #818181, 
+				2px -2px #e0dede, 
+				-2px 2px #818181, 
+				-4px 2px white, 
+				-4px 4px black, 
+				4px 4px black, 
+				4px 0 black, 
+				0 4px black, 
+				2px -4px white, 
+				4px -4px black;
+}
+
+.para1 a:active {
+	box-shadow: -2px -2px #818181, 
+    			-2px 0 #818181, 
+    			0 -2px #818181, 
+    			-4px -4px black, 
+    			-4px 0 black, 
+    			0 -4px black, 
+    			2px 2px #e0dede, 
+    			0 2px #e0dede, 
+    			2px 0 #e0dede,  
+    			2px -2px #818181, 
+    			-2px 2px #e0dede, 
+    			-4px 2px black, 
+    			-4px 4px white, 
+    			4px 4px white, 
+    			4px 0 white, 
+    			0 4px white, 
+    			2px -4px black, 
+    			4px -4px white;
+}

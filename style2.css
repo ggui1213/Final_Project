@@ -1,0 +1,132 @@
+@font-face{
+	font-family: pixel;
+	src: url('Ac437_ToshibaTxL2_8x16.ttf');
+}
+
+html{
+	width: 100%vw;
+	height: 100%vh;
+	background-image: url("img/bg.jpeg");  
+}
+
+body{
+	margin: 0;
+}
+
+.file{
+	display: flex;
+	padding-left: 1.5%;
+	margin: 0;
+	font-size: 1vw;
+	color: white;
+	background-color: #010081;
+	font-family: pixel;
+}
+
+.topnav{
+	padding-left: 1.5%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	display: flex;
+	background-color: #989898;
+	box-shadow: 1px 1px 1px #000;
+}
+
+.topnav a{
+	font-family: pixel;
+	display: flex;
+	text-decoration: none;
+	color: black;
+	font-size: 2.5vw;
+	padding-left: 1em;
+	padding-right:1em;
+	margin-right: 2.5vw;
+	box-shadow: -2px -2px #e0dede, 
+				-2px 0 #e0dede, 
+				0 -2px #e0dede, 
+				-4px -4px white, 
+				-4px 0 white, 
+				0 -4px white, 
+				2px 2px #818181, 
+				0 2px #818181, 
+				2px 0 #818181, 
+				2px -2px #e0dede, 
+				-2px 2px #818181, 
+				-4px 2px white, 
+				-4px 4px black, 
+				4px 4px black, 
+				4px 0 black, 
+				0 4px black, 
+				2px -4px white, 
+				4px -4px black;
+}
+
+.topnav a:active{
+	box-shadow: -2px -2px #818181, 
+    			-2px 0 #818181, 
+    			0 -2px #818181, 
+    			-4px -4px black, 
+    			-4px 0 black, 
+    			0 -4px black, 
+    			2px 2px #e0dede, 
+    			0 2px #e0dede, 
+    			2px 0 #e0dede,  
+    			2px -2px #818181, 
+    			-2px 2px #e0dede, 
+    			-4px 2px black, 
+    			-4px 4px white, 
+    			4px 4px white, 
+    			4px 0 white, 
+    			0 4px white, 
+    			2px -4px black, 
+    			4px -4px white;
+}
+
+.title h1{
+	color: white;
+	font-size: 4em;
+	text-align: center;
+}
+
+.title h2{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+.title img{
+	width: 50px;
+	height: 50px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.celine{
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.main h2{
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.main h3{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+.main p{
+	color: white;
+	font-size: 1.75em;
+	padding-left: 3em;
+}
+
+.updates{
+	color: white;
+	font-size: 3.5em;
+	text-align: right;
+}

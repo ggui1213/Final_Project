@@ -1,0 +1,123 @@
+@font-face{
+	font-family: pixel;
+	src: url('Ac437_ToshibaTxL2_8x16.ttf');
+}
+
+html{
+	width: 100%vw;
+	height: 100%vh;
+	background-image: url("img/bg.jpeg");  
+}
+
+body{
+	margin: 0;
+	font-family: pixel;
+}
+
+.file{
+	display: flex;
+	padding-left: 1.5%;
+	margin: 0;
+	font-size: 1vw;
+	color: white;
+	background-color: #010081;
+}
+
+.topnav{
+	padding-left: 1.5%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	display: flex;
+	background-color: #989898;
+	box-shadow: 1px 1px 1px #000;
+}
+
+.topnav a{
+	display: flex;
+	text-decoration: none;
+	color: black;
+	font-size: 2.5vw;
+	padding-left: 1em;
+	padding-right:1em;
+	margin-right: 2.5vw;
+	box-shadow: -2px -2px #e0dede, 
+				-2px 0 #e0dede, 
+				0 -2px #e0dede, 
+				-4px -4px white, 
+				-4px 0 white, 
+				0 -4px white, 
+				2px 2px #818181, 
+				0 2px #818181, 
+				2px 0 #818181, 
+				2px -2px #e0dede, 
+				-2px 2px #818181, 
+				-4px 2px white, 
+				-4px 4px black, 
+				4px 4px black, 
+				4px 0 black, 
+				0 4px black, 
+				2px -4px white, 
+				4px -4px black;
+}
+
+.topnav a:active{
+	box-shadow: -2px -2px #818181, 
+    			-2px 0 #818181, 
+    			0 -2px #818181, 
+    			-4px -4px black, 
+    			-4px 0 black, 
+    			0 -4px black, 
+    			2px 2px #e0dede, 
+    			0 2px #e0dede, 
+    			2px 0 #e0dede,  
+    			2px -2px #818181, 
+    			-2px 2px #e0dede, 
+    			-4px 2px black, 
+    			-4px 4px white, 
+    			4px 4px white, 
+    			4px 0 white, 
+    			0 4px white, 
+    			2px -4px black, 
+    			4px -4px white;
+}
+
+.bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 3em;
+}
+
+.bar a{
+	font-size: 2.25em;
+	color: white;
+	text-decoration: none;
+}
+
+.bar a:hover{
+	background-color: #d07dff;
+	color: black;
+}
+
+#pageTitle{
+	font-size: 3em;
+	color: white;
+	text-align: center;
+}
+
+#projectDisplay{
+	display: flex;
+	justify-content: center;
+}
+
+#projectDisplay p{
+	color: white;
+	font-size: 2.75em;
+	text-align: center;
+}
+
+#projectDisplay img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
