@@ -17,7 +17,7 @@ let data = [
 },{
 	"itemTitle" : "Myself 3",
     "id" : "3",
-    "description" : "I found all of this would eventually gone to ashes.",
+    "description" : "I found myself being teared into different parts.",
     "image" : "img/2-3.png"
 },{
 	"itemTitle" : "Myself 4",
@@ -27,7 +27,7 @@ let data = [
 },{
 	"itemTitle" : "Myself 5",
     "id" : "5",
-    "description" : "To these eteral mess of meaninglessness... And there is no escape",
+    "description" : "To these eteral mess of meaninglessness... And there is no such thing like utopia...",
     "image" : "img/2-5.png"
 }];
 
